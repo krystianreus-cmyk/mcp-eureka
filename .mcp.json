@@ -4,6 +4,26 @@
       "type": "stdio",
       "command": "npx",
       "args": ["-y", "github:HelpToSave/mcp-eureka"]
+    },
+    "nsa": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "github:matematicsolutions/mcp-nsa"]
+    },
+    "isap": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "github:matematicsolutions/mcp-isap"]
+    },
+    "saos": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "github:matematicsolutions/mcp-saos"]
+    },
+    "krs": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "github:matematicsolutions/mcp-krs"]
     }
   }
 }
