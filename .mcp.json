@@ -8,22 +8,26 @@
     "nsa": {
       "type": "stdio",
       "command": "npx",
-      "args": ["-y", "github:matematicsolutions/mcp-nsa"]
+      "args": ["-y", "@matematicsolutions/mcp-nsa"],
+      "env": { "NODE_USE_ENV_PROXY": "1" }
     },
     "isap": {
       "type": "stdio",
       "command": "npx",
-      "args": ["-y", "github:matematicsolutions/mcp-isap"]
+      "args": ["-y", "github:matematicsolutions/mcp-isap"],
+      "env": { "NODE_USE_ENV_PROXY": "1" }
     },
     "saos": {
       "type": "stdio",
       "command": "npx",
-      "args": ["-y", "github:matematicsolutions/mcp-saos"]
+      "args": ["-y", "github:matematicsolutions/mcp-saos"],
+      "env": { "NODE_USE_ENV_PROXY": "1" }
     },
     "krs": {
       "type": "stdio",
       "command": "npx",
-      "args": ["-y", "github:matematicsolutions/mcp-krs"]
+      "args": ["-y", "github:matematicsolutions/mcp-krs"],
+      "env": { "NODE_USE_ENV_PROXY": "1" }
     }
   }
 }
